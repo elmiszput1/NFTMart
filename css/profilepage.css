@@ -1,0 +1,152 @@
+
+.fa{
+    padding: 10px;
+}
+a{
+    text-decoration:none !important;
+}
+i{
+    padding-right: 5px !important;
+}
+ .bordered{
+     border-radius: 2px;
+     border:1px solid var(--fade_txt_White);
+ }
+ .dark_bolder{
+         font-weight: 700;
+         font-size: 30px !important;
+         color: var(--textDark);
+ }
+ .dark_bold_sm{
+     font-weight: 500;
+     font-size: 16px;
+     color: var(--textDark);
+ }
+ .cardfontszUnderclass_sm{
+         font-weight: 500;
+         font-size: 13px;
+         color:var(--fade_txt_White);
+ }
+ .cardfontszUnderclass{
+         font-weight: 500;
+         font-size: 15px;
+         color:var(--fade_txt_White);
+ }
+ .mleft3{
+     margin-left: 3px;
+ }  
+ .flex_in {
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+ }
+ .flex_center{
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     justify-content:center;
+     align-items:center;
+ }
+ .flex_sb{
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     justify-content:space-between;
+ }
+ .oval_top{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+ }
+ .prof_img_container{
+    /* background-color:black; */
+ }
+ .prof_img{
+    width: 100px;
+     height: 100px;
+     border-radius: 200px;
+
+}
+ .prof_img_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    object-fit: contain;
+}
+
+.walletaddres_con{
+    /* background-color: purple; */
+    margin:0;
+}
+.wall_name{
+    /* background-color: red; */
+    font-size: 20px;
+    padding: 10px;
+    width: 20%;
+    margin: 0;
+    color: var(--textWhite) !important;
+    text-align: center;
+}
+.walladdr{
+    font-size: 18px;
+    padding: 5px 10px;
+    text-align: center;
+    color: var(--textWhite) !important;
+}
+.walladdr:hover{
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: var(--darkBGShaded)
+}
+
+
+
+
+
+@media (max-width: 82rem) {
+   
+    .prof_img{
+       width: 90px;
+        height: 90px;
+        border-radius: 200px;
+   
+   }
+    .prof_img_container img{
+       width: 100%;
+       height: 100%;
+       border-radius: 200px;
+       object-fit: contain;
+   }
+   .wall_name{
+       font-size: 15px;
+       padding: 10px;
+       width: 50%;
+       margin: 0;
+       text-align: center;
+   }
+   .walladdr{
+       font-size: 18px;
+       border-radius: 50px;
+       padding: 5px 10px;
+       text-align: center;
+       /* width: 100%; */
+
+   }
+   .walladdr:hover{
+       padding: 5px 10px;
+       cursor: pointer;
+   }
+   
+}
+
+@media (max-width: 62rem) {
+
+
+}
+
+@media (max-width: 43rem) {
+
+}
